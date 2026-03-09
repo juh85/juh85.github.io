@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>💜 Juliana Cordeiro | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+
+  <nav class="navegacao">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+
+    </ul>
+  </nav>
+
+  <section class="secao" id="inicio">
+    <article>
+    <h1 class="titulo-inicio"> Olá,</h1>
+    <h1 class="maquina-txt">sou Juliana Cordeiro 💜</h1>
+    <h2 class="titulo-seg">Desenvolvedora Web Full Stack</h2>
+    <a href="#projetos" class="btn">Ver Projetos</a>
+    </article>
+    <article class="img-inicio">
+      <img src="imagens/memoji.37" height="300" width="300" alt="Juliana Cordeiro">
+    </article>
+  </section>
+
+  <section class="clara" id="sobre">
+    <h2>Sobre mim</h2>
+    <div class="sobre-texto">
+
+      <p>Formada em Análise e Desenvolvimento de Sistemas, sou uma desenvolvedora curiosa, determinada e atenta aos
+        detalhes.
+      </p>
+
+      <p>
+        Minha trajetória começou na moda esportiva, desenvolvendo moldes para peças piloto — experiência que me ensinou
+        a trabalhar em equipe, pensar estrategicamente e buscar soluções criativas com foco em eficiência.
+      </p>
+
+      <p>
+        A transição para o desenvolvimento web surgiu quando percebi o quanto gosto de ver ideias ganhando forma. Assim
+        como um molde se transforma em roupa, o código se transforma em uma aplicação funcional.
+      </p>
+
+      <p>
+        Hoje sigo aprimorando minhas habilidades e criando projetos que reforçam organização, clareza e boas práticas de
+        desenvolvimento.
+      </p>
+
+      <p>
+        Se quiser conhecer mais sobre minha trajetória profissional, você pode acessar meu currículo aqui:
+        <a href="CurriculoJulianaCordeiro.pdf" class="btn-cv" target="_blank"> Currículo</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="secao" id="habilidades">
+    <h2 class="tecno"> Tecnologias</h2>
+    <h3>Ferramentas e Tecnologias que utilizo para dar vida aos meus projetos</h3>
+    <!-- colocar icones das tecnologias-->
+    <a href="https://skillicons.dev"><img
+        src="https://skillicons.dev/icons?i=javascript,mysql,aws,bootstrap,css,discord,github,git,html,jquery,nodejs,php,postman,vscode&theme=dark&perline=15"
+        alt="My Skills" /></a>
+
+    <h3>Atualmente estou estudando</h3>
+    <p>Estou aprimorando meus conhecimentos em Node.js e JavaScript e estou estudando React e Vue.js</p>
+
+
+  </section>
+
+  <section class="clara" id="projetos">
+    <h2>Projetos</h2>
+    <div class="container">
+      <div class="card">
+        <h3 class="titulo-card">Gerador de frases motivacionais</h3>
+        <div class="img-container">
+          <img src="imagens/geradar.png" alt="Gerador de frases motivacionais" class="img-card">
+        </div>
+        <p>Gerador simples de frases motivacionais, desenvolvido com Node.js, onde as frases são armazenadas em um
+          arquivo JSON e consumidas pelo front-end, que é responsável por exibir as frases de forma aleatória.</p>
+        <a href="https://github.com/juh85/FraseMotiva" class="btn-card">Ver Projeto</a>
+      </div>
+      <div class="card">
+        <h3 class="titulo-card">Previsão de clima</h3>
+        <div class="img-container">
+          <img src="imagens/previsaoTempo.png" alt="Previsão do tempo" class="img-card">
+        </div>
+        <p>Este projeto é uma aplicação web de previsão do tempo, desenvolvida com foco no aprendizado de consumo de
+          APIs com organização de código e boas práticas no front-end e back-end. Permite buscar a previsão por cidade,
+          exibe dados climáticos, altera a imagem de fundo conforme o clima e conta com autocomplete para facilitar a
+          busca.</p>
+        <a href="https://github.com/juh85/ConsultaTempo" class="btn-card">Ver Projeto</a>
+      </div>
+      <div class="card">
+        <h3 class="titulo-card">Sistema de Cadastro de Veículos</h3>
+        <div class="img-container">
+          <img src="imagens/lista.png" alt="Previsão do tempo" class="img-card">
+        </div>
+        <p>Sistema web para cadastro e gerenciamento de veículos de moradores de um condomínio. A aplicação permite
+          cadastrar, listar, atualizar e excluir veículos, facilitando o controle e a gestão de acesso no ambiente
+          comdominal.</p>
+        <a href="https://github.com/juh85/Projeto1" class="btn-card">Ver Projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="contato">
+    <article>
+      <h2 class="titulo-seg">Entre em contato</h2>
+      <p class="texto-contato">Preencha o formulário abaixo com suas informações e<br> irei responder o mais breve
+        possível.</p>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" placeholder="Digite seu nome">
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Digite seu email">
+        </div>
+        <div class="form-control">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar Email</button>
+      </form>
+    </article>
+
+    <article class="redes-contato">
+      <p> Com vontade de socializar?</p>
+      <p> Me encontre também nas redes</p>
+      <div class="redes">
+        <p><a href="https://www.linkedin.com/in/juliana-cordeiro0">
+          💼 LinkedIn
+        </a> </p>
+       <p> <a href="https://github.com/juh85">
+          💻 GitHub
+        </a></p>
+        <p> <a href="mailto:juliana.cordeiro@hotmail.com"> 📧 Email
+        </a></p>
+        <p>📍 Indaiatuba-SP</p>
+      </div>
+    </article>
+    <a href="#" class="botao-topo">⬆</a>
+  </section>
+
+
+
+  <footer>
+    <p>© 2026 Juliana Cordeiro. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
